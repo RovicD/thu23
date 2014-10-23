@@ -25,9 +25,8 @@ public class MainScene : SEScene
         bg.move(0,0);
             
 		add_entity(new CloudEntity());
-		for(i=0;i< Math.random(5,20);i++) {
         add_entity(new PlayEntity());
-		}
+
 
     }
     public void update (TimeVal now, double delta)
